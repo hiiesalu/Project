@@ -34,8 +34,13 @@ cout << "RESULT: "<<MyMul(a, b) << endl;
 cout << "Multiplication completed"<<endl;
     break;
 	case 4:
-cout << "Division is being developed"<<endl;
-    break;
+if (b==0) 
+cout<<"Division by 0, ERROR!!!"<<endl;
+else
+{
+cout << "RESULT: "<<MyDiv(a, b) << endl;
+cout << "Division completed"<<endl;
+}
 	default:
 		cout<<"error"<<endl;
 	}
