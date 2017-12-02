@@ -30,7 +30,8 @@ cout <<"RESULT: "<< MySub(a, b) << endl;
 cout << "Subtraction completed"<< endl;
     break;
 	case 3:
-cout << "Multiplication is being developed"<<endl;
+cout << "RESULT: "<<MyMul(a, b) << endl;
+cout << "Multiplication completed"<<endl;
     break;
 	case 4:
 cout << "Division is being developed"<<endl;
