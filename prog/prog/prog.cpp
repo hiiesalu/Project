@@ -25,7 +25,8 @@ int main()
 cout <<"Summation is being developed"<<endl;
 	break;
 	case 2:
-cout << "Subtraction is being developed"<<endl;
+cout «"RESULT: "« MySub(a, b) « endl; 
+cout « "Subtraction completed"«endl;
     break;
 	case 3:
 cout << "Multiplication is being developed"<<endl;
