@@ -23,7 +23,7 @@ int main()
 	switch (ch){
 	case 1:
 cout <<"RESULT: "<< MySum(a, b) << endl;
-cout << "Summation completed"<<endl;
+cout << "Summation completed"<< endl;
 	break;
 	case 2:
 cout <<"RESULT: "<< MySub(a, b) << endl; 
