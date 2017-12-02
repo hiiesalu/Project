@@ -22,18 +22,24 @@ int main()
 
 	switch (ch){
 	case 1:
-cout <<"Summation is being developed"<<endl;
+cout <<"RESULT: "<< MySum(a, b) << endl;
+cout << "Summation completed"<<endl;
 	break;
 	case 2:
-cout «"RESULT: "« MySub(a, b) « endl; 
-cout « "Subtraction completed"«endl;
+cout <<"RESULT: "<< MySub(a, b) << endl; 
+cout << "Subtraction completed"<< endl;
     break;
 	case 3:
 cout << "Multiplication is being developed"<<endl;
     break;
 	case 4:
-cout << "Division is being developed"<<endl;
-    break;
+if (b==0) 
+cout<<"Division by 0, ERROR!!!"<<endl;
+else
+{
+cout << "RESULT: "<<MyDiv(a, b) << endl;
+cout << "Division completed"<<endl;
+}
 	default:
 		cout<<"error"<<endl;
 	}
