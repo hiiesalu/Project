@@ -22,7 +22,8 @@ int main()
 
 	switch (ch){
 	case 1:
-cout <<"Summation is being developed"<<endl;
+cout «"RESULT: "« MySum(a, b) « endl;
+cout « "Summation completed"«endl;
 	break;
 	case 2:
 cout << "Subtraction is being developed"<<endl;
