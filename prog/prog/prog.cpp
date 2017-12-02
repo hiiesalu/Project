@@ -22,12 +22,12 @@ int main()
 
 	switch (ch){
 	case 1:
-cout «"RESULT: "« MySum(a, b) « endl;
-cout « "Summation completed"«endl;
+cout <<"RESULT: "<< MySum(a, b) << endl;
+cout << "Summation completed"<<endl;
 	break;
 	case 2:
-cout «"RESULT: "« MySub(a, b) « endl; 
-cout « "Subtraction completed"«endl;
+cout <<"RESULT: "<< MySub(a, b) << endl; 
+cout << "Subtraction completed"<<endl;
     break;
 	case 3:
 cout << "Multiplication is being developed"<<endl;
